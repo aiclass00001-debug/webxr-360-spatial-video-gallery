@@ -1,0 +1,6 @@
+{
+  "name":"webxr-360-spatial-video-gallery","version":"1.0.0","private":true,"type":"module",
+  "scripts":{"dev":"vite --host 0.0.0.0","typecheck":"tsc --noEmit","build:web":"tsc --noEmit && vite build","build":"npm run build:web"},
+  "dependencies":{"three":"0.179.1"},
+  "devDependencies":{"@types/three":"0.179.0","typescript":"5.9.3","vite":"8.0.13"}
+}

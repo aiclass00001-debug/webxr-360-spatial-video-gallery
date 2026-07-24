@@ -1,0 +1,12 @@
+.look-hint {
+  position: absolute;
+  z-index: 2;
+  right: 14px;
+  top: 14px;
+  padding: 8px 10px;
+  border: 1px solid #24414d;
+  background: #071117cc;
+  color: #8faebb;
+  font: 700 10px monospace;
+  pointer-events: none;
+}

@@ -1,0 +1,12 @@
+.phase2-work{grid-template-columns:390px minmax(0,1fr)}
+.video-list{display:grid;gap:7px;margin:10px 0 14px;max-height:190px;overflow:auto}
+.empty-list{margin:8px 0!important;text-align:center;color:#657b87!important}
+.video-row{display:grid;grid-template-columns:28px minmax(0,1fr) 28px;gap:9px;align-items:center;border:1px solid #1c303a;padding:8px}
+.video-row>em{width:28px;height:28px;display:grid;place-items:center;background:#122630;color:#42e8ff;font:800 11px monospace;font-style:normal}
+.video-row div{min-width:0}.video-row strong,.video-row small{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.video-row strong{font-size:11px}.video-row small{font-size:10px;color:#78909c;margin-top:3px}
+.video-row button{padding:0;width:28px;height:28px;background:transparent;border:1px solid #2a414c;color:#8399a4;font-size:18px}.video-row button:hover{border-color:#ff6575;color:#ff8794}
+.settings-title{margin-top:22px}.settings{display:grid;gap:12px}.settings label{display:grid;gap:6px;color:#91a6b1;font-size:11px}.settings output{justify-self:end;margin-top:-20px;color:#d9edf5;font:700 11px monospace}.settings select,.text-input{width:100%;border:1px solid #263d48;background:#081117;color:#dcecf3;padding:9px}.settings input[type=range]{width:100%;accent-color:#42e8ff}.settings .check{display:flex;grid-template-columns:auto 1fr;align-items:center}.secondary{background:#132630;color:#b9d4df;border:1px solid #31505d;padding:10px}.secondary:hover{border-color:#42e8ff;color:#42e8ff}
+@media(max-width:880px){.phase2-work{grid-template-columns:1fr}}
+#vr-slot{position:relative;min-height:48px;margin:10px 0 18px;display:grid;place-items:center;border:1px solid #203640;background:#071016}
+#xr-state{padding:8px;color:#78909c;font-size:10px;text-align:center}
+#VRButton.phase3-vr-button{position:relative!important;left:auto!important;bottom:auto!important;width:100%!important;height:44px!important;border-radius:0!important;border:1px solid #42e8ff!important;background:#0b222a!important;color:#bdf7ff!important;opacity:1!important;font-weight:800!important;z-index:3!important}

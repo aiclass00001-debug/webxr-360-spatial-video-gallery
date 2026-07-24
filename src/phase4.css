@@ -1,0 +1,21 @@
+.audio-settings {
+  padding: 12px;
+  border: 1px solid #1d3844;
+  background: linear-gradient(135deg, #071116, #0b1a21);
+}
+
+.audio-note {
+  margin: 0 !important;
+  padding-top: 2px;
+  color: #69b9c9 !important;
+  font: 700 9px/1.5 monospace;
+  letter-spacing: .04em;
+}
+
+@media (min-width: 881px) {
+  .phase2-work > aside {
+    max-height: calc(100vh - 118px);
+    overflow: auto;
+    scrollbar-color: #284753 #071016;
+  }
+}

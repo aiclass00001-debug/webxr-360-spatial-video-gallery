@@ -1,0 +1,49 @@
+.sequence-settings {
+  padding: 12px;
+  border: 1px solid #244552;
+  background: linear-gradient(135deg, #071116, #0b2028);
+}
+
+.sequence-note {
+  margin: 0 !important;
+  color: #86c9d7 !important;
+  font: 700 9px/1.5 monospace;
+}
+
+.gyro-button {
+  margin-top: 9px;
+}
+
+.restart-button {
+  margin-top: 9px;
+  border-color: #3f7180;
+}
+
+.restart-button:not(:disabled):hover {
+  border-color: #42e8ff;
+  color: #b9f8ff;
+}
+
+.gyro-button.active {
+  border-color: #4df2a8;
+  color: #9effce;
+}
+
+.video-row.active {
+  border-color: #42e8ff;
+  background: #0d2028;
+  box-shadow: inset 2px 0 #42e8ff;
+}
+
+canvas {
+  touch-action: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+
+@media (pointer: coarse) {
+  .look-hint {
+    font-size: 11px;
+  }
+}
